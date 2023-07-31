@@ -5,7 +5,7 @@
   background-color: var(--title-color);
   opacity: 1;
   padding: 0.3rem 0.5rem;
-  border-radius: 100%;
+  border-radius: 20%;
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
@@ -39,7 +39,7 @@
 /* For medium devices */
 @media screen and (max-width: 768px) {
   .show-scroll {
-    bottom: 4rem;
+    bottom: 5rem;
   }
 }
 
