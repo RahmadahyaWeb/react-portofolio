@@ -10,6 +10,7 @@ import Testimonials from "./components/testimonials/Testimonials";
 import Footer from "./components/footer/Footer";
 import Scroll from "./components/scroll/Scroll";
 import Preloader from "./components/preloader/Preloader";
+import Work from "./components/work/Work";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -33,6 +34,7 @@ const App = () => {
             <Skills />
             <Services />
             <Qualification />
+            <Work />
             <Testimonials />
           </main>
           <Footer />
